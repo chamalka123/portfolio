@@ -1,5 +1,5 @@
 import { HomeMain } from './Components/Styled/HomeStyled';
-import myImage from './Assets/Images/me.png';
+import myImage from './Assets/Images/me.jpg';
 import bgPatern from './Assets/Images/Frame.svg';
 import { BsFacebook, BsTwitter, BsGithub, BsLinkedin, BsFillArrowUpCircleFill } from 'react-icons/bs';
 import { FaBlogger } from 'react-icons/fa';
@@ -84,6 +84,11 @@ const Home = () => {
                               Projects
                            </Link>
                         </li>
+                        <li>
+                           <Link className="pointer" to="publications" smooth={true} duration={800}>
+                              Publications
+                           </Link>
+                        </li>
                      </ul>
                   </nav>
                </div>
@@ -103,7 +108,9 @@ const Home = () => {
                      className="img-me"
                      src={myImage}
                      alt=""
-                     style={{ borderRadius: '50%' }}
+                     style={{ borderRadius: '50%',width: '170px',  // Adjust the width as needed
+                        height: '180px',
+                      }}
                   />
                   <motion.a initial="initial" animate="visible" whileHover="hover" whileTap="tap">
                      <h1>Sasini Perera</h1>
@@ -127,9 +134,9 @@ const Home = () => {
                         <FaBlogger />
                      </motion.a>
                   </div>
-                  <button>
-                     <a href={pdf}>Download My CV</a>
-                  </button>
+                  <button style={{ padding: '0px', height: '5px' }}>
+   <a href={pdf} style={{ textDecoration: 'none' }}>Download My CV</a>
+</button>
                </div>
             </div>
             <div className="fluid-container">
@@ -137,7 +144,7 @@ const Home = () => {
                   <div className="container">
                      <div className="tech-info">
                         <div className="tech-stack" id="about">
-                           <h2 className="sub-head">About</h2>
+                           <h2 className="sub-head">About Me</h2>
                            <motion.div className="heading about-heading" custom={1} initial="initial" animate="visible" variants={variants}>
                               <h2> Self motivated, hardworking undergraduate student in Software Engineering. An individual who likes to work with a team and constantly learn new things. I seek an internship position that will allow me to explore career options in the field of Software Engineering.</h2>
                            </motion.div>
