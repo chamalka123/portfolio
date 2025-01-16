@@ -107,11 +107,11 @@ const Home = () => {
                   />
                   <motion.a initial="initial" animate="visible" whileHover="hover" whileTap="tap">
                      <h1>Sasini Perera</h1>
-                     <p>Undergraduate at SLIIT / Software Engineering Enthusiast</p>
+                     <p>Fresh Graduate at SLIIT / Software Engineering Enthusiast</p>
                   </motion.a>
 
                   <div className="my-liks">
-                     <motion.a initial="initial" animate="visible" whileHover="hover" whileTap="tap" variants={myLinks} target="blank" href="https://www.linkedin.com/in/sasini-perera-chamalka/">
+                     <motion.a initial="initial" animate="visible" whileHover="hover" whileTap="tap" variants={myLinks} target="blank" href="https://linkedin.com/in/sasiniperera/">
                         <BsLinkedin />
                      </motion.a>
                      <motion.a initial="initial" animate="visible" whileHover="hover" whileTap="tap" variants={myLinks} target="blank" href="https://github.com/chamalka123">
@@ -123,7 +123,7 @@ const Home = () => {
                      <motion.a initial="initial" animate="visible" whileHover="hover" whileTap="tap" variants={myLinks} target="blank" href="https://www.facebook.com/sasini.perera.526">
                         <BsFacebook />
                      </motion.a>
-                     <motion.a initial="initial" animate="visible" whileHover="hover" whileTap="tap" variants={myLinks} target="blank" href="https://sasichamalka.blogspot.com/">
+                     <motion.a initial="initial" animate="visible" whileHover="hover" whileTap="tap" variants={myLinks} target="blank" href="https://medium.com/@sasiniperera">
                         <FaBlogger />
                      </motion.a>
                   </div>
