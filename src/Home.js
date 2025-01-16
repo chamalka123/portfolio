@@ -4,7 +4,7 @@ import bgPatern from './Assets/Images/Frame.svg';
 import { BsFacebook, BsTwitter, BsGithub, BsLinkedin, BsFillArrowUpCircleFill } from 'react-icons/bs';
 import { FaBlogger } from 'react-icons/fa';
 import { motion } from 'framer-motion';
-import pdf from './Assets/CV/Sasini-Perera-Resume.pdf';
+import pdf from './Assets/CV/SasiniPerera_Resume.pdf';
 import { Link } from 'react-scroll';
 
 const Home = () => {

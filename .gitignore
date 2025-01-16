@@ -23,6 +23,5 @@ yarn-debug.log*
 yarn-error.log*
 
 #images and others
-
-/src/Assets/CV/Sasini-Perera-Resume.pdf
+*.pdf
 /src/Assets/Images/me.jpg
