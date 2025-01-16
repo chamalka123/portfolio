@@ -491,8 +491,39 @@ const Home = () => {
                         </div>
                      </div>
                   </div>
+
+                  <div className="container-ash-bg">
+                     <div style={{ marginBottom: '0px' }} className="tech-info tech-info-bg">
+                        <div className="tech-stack" id="skills">
+                           <h2 className="sub-head">Publications</h2>
+                           <div className="ts-grid pb-40">
+                              <motion.div className="ts-list" custom={1} initial="initial" animate="visible" variants={variants}>
+                                 <h3><strong>Baby Bump: A Monitoring System for Pregnant Mothers and Babies</strong></h3>
+                                 <div>
+                                    <p><strong>2024 IEEE 9th International Conference for Convergence in Technology (I2CT)</strong></p>
+                              <p>The proposed solution is the development of a mobile application, encompassing features such as a Nutrition Predictor, Medicine Effect Predictor, AI chatbot, and Baby Status Predictor. This innovative application aims to address the complex issues surrounding pregnancy and childbirth, with the overarching goal of improving the nation's life expectancy.</p>
+                              
+                              <a target="blank" href="https://ieeexplore.ieee.org/document/10544017">
+                              <span className="mt-5">
+                                 <label className="prev-link">Click here to see publication</label>
+                              </span>
+                              </a>
+                           </div>
+                           <a target="blank" href="https://chamalka123.github.io/BabyBumpWeb/">
+                              <motion.img className="proj-img" initial="initial" animate="animate" whileHover="hover" whileTap="tap" variants={pimgMotion} src={require(`./Assets/Images/projects/f11.jpg`)} alt="" />
+                           </a>
+
+                              </motion.div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+
                   <h4 className="soon-text">More projects will be available soon...</h4>
                </div>
+
+
+               
             </div>
          </div>
          <div className="footerLine"></div>
